@@ -1,0 +1,13 @@
+<h1 class="text-center" style="font-family: Tahoma, Geneva, sans-serif;">Bienvenue sur Courgette Land</h1> <br />
+
+<div class="text-center">
+<h5> Voici la liste des clubbeurs courgetteux </h5>
+<p>
+		<% @users.each do |user| %>
+
+		<%= user.first_name %>
+		<%= user.last_name %>
+		<%= user.email %><br />
+		<%end%>
+</p>
+</div>

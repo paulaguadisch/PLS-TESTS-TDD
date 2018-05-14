@@ -1,0 +1,13 @@
+<h1 class="text-center" style="font-family: Tahoma, Geneva, sans-serif;">Bienvenue sur Courgette Land</h1> <br />
+
+<div class="text-center">
+	 <% if user_signed_in? %>
+	 <h5> Salut jeune courgetteux clique ici pour voir les jeunes chanceux de notre club très privé </h5>
+     <%= link_to "les jeunes chanceux", participants_path %>
+     <% else %>
+     <h5> Salut futur courgetteux, clique ici pour te créer un compte </h5>
+	 <%= link_to "Sign up", new_user_registration_path %>
+     <% end %>
+</div>
+
+
