@@ -4,10 +4,10 @@
 <h5> Voici la liste des clubbeurs courgetteux </h5>
 <p>
 		<% @users.each do |user| %>
-
-		<%= user.first_name %>
-		<%= user.last_name %>
-		<%= user.email %><br />
+		<p>First Name: <%= user.first_name %> </p>
+		<p>Last Name: <%= user.last_name %> </p>
+		<p>Email: <%= user.email %> </p>
+		 ------------------------------- 
 		<%end%>
 </p>
 </div>
