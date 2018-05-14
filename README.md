@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Délicieux projet de TEST où peu de choses ne fonctionnent...
 
-Things you may want to cover:
+TEAM COURGETTE EN PLS
 
-* Ruby version
+Journée noire... Veuillez nous en excuser... 
 
-* System dependencies
+On a fait ce qu'on a pu !
 
-* Configuration
+On s'est arrêté au 2.2 impossible de réussir la deuxième partie des tests...
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Sur ce douce journée à vous : ) 
