@@ -6,7 +6,7 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     get root_url
     assert_response :success
   end
-  
+
   test "should get registration page" do
     get new_user_registration_url
     assert_response :success
@@ -19,3 +19,8 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
 
 
 end
+
+  test "should get all users" do
+    get participantsyolo_url
+    assert_response :success
+  end
